@@ -1,0 +1,22 @@
+*{margin: 0px;padding: 0px}
+
+body {font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;margin: 12px 0;}
+
+#Master{width: 800px;margin: 0 auto;}
+
+.Flip{cursor: pointer;height: 150px;perspective: 600;position: relative;width: 150px;float: left;margin: 15px;display: inline-block}
+
+.card {height: 100%;position: absolute;transform-style: preserve-3d;transition: all 1s ease-in-out;width: 100%;}
+
+.Flip .Frente{position: absolute;transform: rotateY(0deg);backface-visibility: hidden;transition: all 1s ease-in-out;}
+
+.Flip .Fundo{position: absolute;transform: rotateY(180deg);backface-visibility: hidden;transition:all 1s ease-in-out;text-align: center;line-height: 150px;color: #0087cc;background-color: white;box-shadow: #ccc 5px 5px 5px 5px;border-radius: 15px}
+
+.Flip:hover .Frente{transform: rotateY(-180deg);cursor: pointer}
+
+.Flip:hover .Fundo{transform: rotateY(0deg);cursor: pointer}
+
+img{width: 150px;height: 150px;display: inline-block;border-radius: 15px;transition: widht 0.5s, height 0.5s, box-shadow 0.5s;}
+
+img:hover{width: 153px;height: 153px;box-shadow: #ccc 5px 5px 5px 5px;}
+
