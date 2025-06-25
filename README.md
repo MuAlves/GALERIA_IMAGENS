@@ -1,40 +1,56 @@
 # GALERIA_IMAGENS
 
-🖼️ Exercício – Galeria Interativa com HTML, CSS e Animações
+---
 
-📷 1. Objetivo: Criar uma Galeria com 12 Imagens em Grade (3x4)
-Monte uma galeria com 12 imagens organizadas no formato de grade 3 colunas por 4 linhas. Utilize HTML e CSS, aplicando os seguintes requisitos de forma obrigatória:
+## 🖼️ Exercício – Galeria Interativa com HTML, CSS e Animações
 
-⚙️ 2. Requisitos Técnicos
-🧩 a) Tamanho das Imagens
-Cada imagem deve ter:
+---
 
-Largura: 150px
+### 📷 1. Objetivo: Criar uma Galeria com 12 Imagens em Grade (3x4)
 
-Altura: 150px
+Desenvolver uma galeria contendo 12 imagens organizadas em uma grade de 3 colunas por 4 linhas, utilizando HTML e CSS.
 
-🖱️ b) Efeito Hover (ao passar o mouse)
-Ao passar o mouse sobre uma imagem:
+---
 
-Aplique um efeito de sombra (box-shadow)
+### ⚙️ 2. Requisitos Técnicos
 
-O efeito deve ter animação suave (transição CSS)
+#### 🧩 a) Tamanho das Imagens
 
-🔄 c) Efeito de "Virar" a Imagem ao Clicar
-Ao clicar na imagem:
+- Cada imagem deve ter as dimensões de:  
+  - **Largura:** 150px  
+  - **Altura:** 150px  
 
-Ela deve girar em 3D como se fosse uma carta virando
+#### 🖱️ b) Efeito Hover (Ao passar o mouse)
 
-A parte de trás da imagem deve mostrar um texto curto
+- Ao passar o mouse sobre qualquer imagem:  
+  - Deve ser aplicado um efeito de sombra (`box-shadow`).  
+  - O efeito deve possuir uma animação suave utilizando transição CSS (`transition`).  
 
-Ex: nome do local, curiosidade, data, etc.
+#### 🔄 c) Efeito de "Virar" a Imagem ao Clicar
 
-Exemplo de referência para o efeito de virar a imagem:
-Shay Howe – Flip Card Effect
+- Ao clicar na imagem:  
+  - A imagem deve girar em 3D, simulando o efeito de virar uma carta.  
+  - A parte de trás da imagem deverá exibir um texto curto, como:  
+    - Nome do local  
+    - Curiosidade  
+    - Data  
+    - Ou qualquer informação relevante  
 
-🎨 3. Dicas de Estilo com CSS
-Use display: grid; para criar a grade 3x4
+- Para referência, pode-se consultar o exemplo:  
+  [Shay Howe – Flip Card Effect](http://learn.shayhowe.com/advanced-html-css/transitions-animations/)
 
-Aplique transition e transform para os efeitos animados
+---
 
-Use perspective para criar o efeito 3D ao girar
+### 🎨 3. Dicas de Estilo com CSS
+
+- Utilize `display: grid;` para criar a estrutura da grade 3x4.  
+- Aplique propriedades `transition` e `transform` para criar efeitos animados.  
+- Use `perspective` para possibilitar o efeito 3D ao girar as imagens.  
+
+---
+
+## Desenvolvido por  
+**Murilo Alves**
+
+---
+
